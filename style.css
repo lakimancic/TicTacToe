@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#gameCanvas {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  background-image: url("Images/tttbg.png");
+  background-size: 100%;
+}
+
+.menu {
+  display: flex;
+  background-color: gray;
+  font-size: 26px;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  font-size: 22px;
+  padding: 5px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
